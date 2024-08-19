@@ -14,7 +14,7 @@
 .header{
     width: 100%;
     min-height: 120vh;
-    background-image: url(./images/background/bg-1.jpg);
+    background-image: url(./images/background/bground\ 2.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -223,16 +223,18 @@
 .sell .main-selling .col-1{
     padding: 4.5rem 2.2rem;
     text-align: center;
-    background: rgba(148, 0, 211, 0.397);
+    background:#FF751A  ;
     color: #fff;
 }
 
 .sell .main-selling .col-1:nth-child(2){
-    background: rgba(148, 0, 211, 0.568);
+    background:white ;
+    color: black;
 }
 
 .sell .main-selling .col-1:nth-child(4){
-    background:rgba(148, 0, 211, 0.568);
+    background:white;
+    color:black;
 }
 
 .sell .main-selling .col-1 span{
@@ -266,7 +268,7 @@
 .critics{
     width: 100%;
     height: 80vh;
-    background-image: url(./images/background/bg-2.jpg);
+    background-image: url(./images/background/bg-03.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -441,10 +443,6 @@ section{
 .books{
     width: 100%;
     min-height:auto ;
-    background-image: linear-gradient(to left, rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(./images/background/bg-3.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
    
 }
 
@@ -626,15 +624,16 @@ section{
 
 /*======= gallery section start ==========*/
 .gallery .main-gallery{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+  height: 100dvh;
+  width: 100dvw;
+  background-color: #e49f71c0;
+
 }
 
 .gallery .main-gallery img{
     width: 100%;
     object-fit: cover;
 }
-/* https://images.unsplash.com/photo-1481415004805-b5b5c1e19e9f?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D */
 
 @media(max-width:991px){
     .gallery .main-gallery{
