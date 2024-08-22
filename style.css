@@ -722,7 +722,7 @@ section{
 .touch{
     width: 100%;
     min-height: 120vh;
-    background-image: linear-gradient(to left, rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url(./images/background/bg-5.jpg);
+    background-image: linear-gradient(to left, rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url(./images/background/bg-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
